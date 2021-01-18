@@ -25,9 +25,4 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
-
-  async getGeoLoacation() {
-    let position = await Geolocation.getCurrentPosition();
-    console.log(position);
-  }
 }
